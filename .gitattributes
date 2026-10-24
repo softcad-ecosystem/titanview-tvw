@@ -1,2 +1,7 @@
-# Auto detect text files and perform LF normalization
 * text=auto
+*.sh text eol=lf
+*.bat text eol=crlf
+*.tvw text eol=lf
+
+# Preserve original SHA-256 manifest for the owner-provided LGPL source distribution.
+graphics/libtitangfx/** -text

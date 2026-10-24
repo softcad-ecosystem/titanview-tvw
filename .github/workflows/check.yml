@@ -1,0 +1,58 @@
+name: TVW public docs and LGPL graphics checks
+on:
+  push:
+  pull_request:
+jobs:
+  docs-and-manifest:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check documentation, provenance and original LGPL graphics manifest
+        run: python -m unittest discover -s tests -v
+
+  graphics-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile original C99 libraries from included sources
+        shell: bash
+        run: |
+          mkdir -p "$RUNNER_TEMP/tvw-build"
+          cd graphics/libtitangfx
+          gcc -std=c99 -O2 -fPIC -DTS_BUILDING -shared -I src src/libtitangfx_all.c -Wl,-z,defs -lm -lz -o "$RUNNER_TEMP/tvw-build/libtitangfx.so"
+          gcc -std=c99 -O2 -fPIC -shared path2/ts_gfx_path2.c -lm -o "$RUNNER_TEMP/tvw-build/ts_gfx_path2.so"
+          test "$(nm -D --defined-only "$RUNNER_TEMP/tvw-build/libtitangfx.so" | grep -c ' T ts_')" = 572
+          test "$(nm -D --defined-only "$RUNNER_TEMP/tvw-build/ts_gfx_path2.so" | grep -c ' T ts_')" = 34
+      - name: Verify original checksums and run render smoke against owner-supplied binaries
+        shell: bash
+        run: |
+          cd graphics/libtitangfx
+          sha256sum -c MANIFEST_SHA256.txt
+          bash VERIFICARE.sh | tee "$RUNNER_TEMP/tvw-smoke.txt"
+          grep -q 'RENDER: OK' "$RUNNER_TEMP/tvw-smoke.txt"
+          grep -q 'path2 RENDER: OK' "$RUNNER_TEMP/tvw-smoke.txt"
+      - name: Compile and run public graphics C99 example
+        shell: bash
+        run: |
+          gcc -std=c99 -O2 -I graphics/libtitangfx/src examples/graphics/example_canvas.c -o "$RUNNER_TEMP/tvw-example"
+          test "$("$RUNNER_TEMP/tvw-example")" = '16 16 ff635816'
+
+  graphics-windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Native Windows x64 DLL smoke check
+        shell: pwsh
+        run: |
+          $output = python graphics/libtitangfx/TEST_TVW_WINDOWS.py 2>&1
+          $output | Out-Host
+          if ($LASTEXITCODE -ne 0 -or (($output | Out-String) -notmatch 'TOT VERDE')) { throw 'TVW Windows DLL smoke failed' }

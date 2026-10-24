@@ -1,0 +1,28 @@
+{
+  "repository": "softcad-ecosystem/titanview-tvw",
+  "package_role": "github_developer_reference_plus_real_lgpl_graphics_sdk",
+  "working_engine_existing": true,
+  "working_engine_version_target": "4.4.0",
+  "tvw_4_4_engine_sources_included": false,
+  "tvw_4_4_runtime_binaries_included": false,
+  "tvw_parser_conformance_tests_included": false,
+  "graphics_lgpl_sources_included": true,
+  "graphics_windows_linux_binaries_included": true,
+  "graphics_package_filename": "SoftCAD_libtitangfx_TVW_LGPL_2026-10-21.zip",
+  "graphics_package_actual_sha256": "b2d62c5501a25992dabf2cb718b9ac92c48d562b0f08f9f720832697047e6047",
+  "graphics_package_previously_recorded_sha256": "7963af733d9232d6d4a75fac944293bdeb595bd49f1e1dc0740254a9d1874e94",
+  "same_sha_as_prior_reference": false,
+  "graphics_internal_manifest_sha256_check": "all 64 listed files matched",
+  "public_graphics_license": "LGPL-3.0-or-later",
+  "new_documentation_and_helpers_license": "Apache-2.0",
+  "excluded": [
+    "protected_compiler",
+    "full_titanview_app",
+    "proprietary_titancad",
+    "proprietary_titanarchive",
+    "proprietary_titanpack",
+    "proprietary_titanscann",
+    "shield",
+    "cad_cadastral_pdf_crypto_engines"
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "purpose": "GitHub docs and owner-supplied LGPL native graphics source/binary bundle",
+  "original_uploaded_zip_sha256": "b2d62c5501a25992dabf2cb718b9ac92c48d562b0f08f9f720832697047e6047",
+  "prior_mismatched_reference_sha256": "7963af733d9232d6d4a75fac944293bdeb595bd49f1e1dc0740254a9d1874e94",
+  "files": {
+    ".gitattributes": {
+      "bytes": 184,
+      "sha256": "eb21a6c18fddb0e3a4e996712f2722a9135eb98b7dd6c1cc2609dce6825063e3"
+    },
+    ".github/workflows/check.yml": {
+      "bytes": 2375,
+      "sha256": "a893594c0c95ea807b72b5dbb790ee8cf3b3bd9c61dcea21d0714a2be7336955"
+    },
+    ".gitignore": {
+      "bytes": 407,
+      "sha256": "0e30e02c59ea366b6c4466bde9dde6c3bc9aac68b4c5a24de08f24f3cb30b94c"
+    },
+    "CONTRIBUTING.md": {
+      "bytes": 679,
+      "sha256": "4ed1f71633c8b0dfbe57b12af06c31d1b1b10cfb3d376a005dbb03b249a5a66b"
+    },
+    "LICENSE": {
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "NOTICE.md": {
+      "bytes": 841,
+      "sha256": "67796598cd6c2135b5266ef163fd4e01ab8ed26233bbc2f6f15046c687c1775d"
+    },
+    "PUBLISH_RO.md": {
+      "bytes": 1376,
+      "sha256": "913b61390dc0b3cad3ad6026499313a30f72b4a4d01c6e9a17dc2cd2d881ef19"
+    },
+    "README.md": {
+      "bytes": 4235,
+      "sha256": "f6da5b42945a9566514e5f3bb7214f3f81ad1467455314c6e2f2889fe7cc692b"
+    },
+    "README_RO.md": {
+      "bytes": 2567,
+      "sha256": "482bf2e7624780a7fc5718ccb854c0d909020e85f7e7dfacc6940b0117e73608"
+    },
+    "RELEASE_SCOPE.json": {
+      "bytes": 1210,
+      "sha256": "3bcf347fbcf22c673da5e21027ecb33507aa6d70d5384d9426a80600d08f5a32"
+    },
+    "SECURITY.md": {
+      "bytes": 428,
+      "sha256": "c51ad4cb8c6768a16c9899601f0ab39c3459ec89058b1807ae51a6dcbf4963a5"
+    },
+    "docs/ADOPTION.md": {
+      "bytes": 826,
+      "sha256": "9337ffa57e7bbcaad6e5a0739a06343af441f761c709d1abc40ffd43e8e4cd3e"
+    },
+    "docs/GRAPHICS_LGPL.md": {
+      "bytes": 1237,
+      "sha256": "ee4c2c77bfe6ddd3e0668ee24a5891f6deb36da6489d536ea59b77e91403efc8"
+    },
+    "docs/GRAPHICS_VERIFICATION.md": {
+      "bytes": 2767,
+      "sha256": "d9a2e2cdee309e5e7798b9deadfdb4032dd6e4e7f4cbb3d0471ab60b42fddcca"
+    },
+    "docs/INTEGRATION_4_4_0.md": {
+      "bytes": 1379,
+      "sha256": "cd49a42b585af4251f94fa101bc91f610d2b7b616e8026d80786ac278f3f2981"
+    },
+    "docs/PUBLICATION_SCOPE.md": {
+      "bytes": 1515,
+      "sha256": "4a50e5e553ecd7dce4dc4ac860559c4c28c1d71e9eb628873db69f47212e305b"
+    },
+    "docs/TVW_LANGUAGE.md": {
+      "bytes": 1609,
+      "sha256": "e0f52aaddd71a27f2bca73ebd1c15ce0406038822bfc646aab888249214a8c62"
+    },
+    "examples/graphics/example_canvas.c": {
+      "bytes": 745,
+      "sha256": "1dc5a1cfa216b43b123a65f4a16007f11f89f33eae0b6c6667acda1d33516e38"
+    },
+    "graphics/libtitangfx/COPYING": {
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    "graphics/libtitangfx/COPYING.LESSER": {
+      "bytes": 7652,
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118"
+    },
+    "graphics/libtitangfx/LICENSE.md": {
+      "bytes": 1239,
+      "sha256": "378cdfe2f26ab69c6666ff41443e3c4a17005e5216afac34cae91850f4ae8e93"
+    },
+    "graphics/libtitangfx/MANIFEST_SHA256.txt": {
+      "bytes": 5680,
+      "sha256": "639158a5f8ccc544326dda9986b3b856ca6ff1ebc205cd0cec0221a5b87e5664"
+    },
+    "graphics/libtitangfx/NOTICE.md": {
+      "bytes": 3783,
+      "sha256": "0980fdd2ffd913af708991698a39a95cdbeb446ce0efb0ea0da9d7f80d801167"
+    },
+    "graphics/libtitangfx/README.md": {
+      "bytes": 2479,
+      "sha256": "4e4beab7b87b091b6f6915fed4236107bbea97c3718789912c933a616b49f1fa"
+    },
+    "graphics/libtitangfx/RULEAZA_TEST_TVW_WINDOWS.bat": {
+      "bytes": 1403,
+      "sha256": "37f54457076e92a66f0a52de80bf68dc225045c7737235affd883e431e52f464"
+    },
+    "graphics/libtitangfx/TEST_TVW_WINDOWS.py": {
+      "bytes": 4573,
+      "sha256": "6c2448ad9d1ccbc2b9fca3aa4a3294360268df065ef54e5feec87bc85b1f471c"
+    },
+    "graphics/libtitangfx/VERIFICARE.sh": {
+      "bytes": 4069,
+      "sha256": "85569d388f17fc88f06b7d060fff2fab5a1a435416ca8b5c72443e37f5d099bd"
+    },
+    "graphics/libtitangfx/libtitangfx.dll": {
+      "bytes": 820383,
+      "sha256": "74e3a889c73f2a780cf0a03c4fca1556207de7ef6029c8b651aead5d8ff56e70"
+    },
+    "graphics/libtitangfx/libtitangfx.so": {
+      "bytes": 409008,
+      "sha256": "21e2b0e18ea16c1ba1ba5bb36f9a1f35a8abc070d3ae64b4eb045e898623321d"
+    },
+    "graphics/libtitangfx/path2/BUILD.md": {
+      "bytes": 1585,
+      "sha256": "f9de2c5398add9da4f0b48d5e6efeac711dffe997419bed81b94a57922069572"
+    },
+    "graphics/libtitangfx/path2/difftest_vs_referinta.py": {
+      "bytes": 7815,
+      "sha256": "eecf9240b8d864f643563ff5645eaf4814e83b225540dd29c8b1a277bc230906"
+    },
+    "graphics/libtitangfx/path2/ts_gfx_path2.c": {
+      "bytes": 41736,
+      "sha256": "835c262cacdd712bd5313afd4382fe986449c8e8d660d4b8692239c882211ac7"
+    },
+    "graphics/libtitangfx/path2/ts_gfx_path2.dll": {
+      "bytes": 139049,
+      "sha256": "ddb6f8b89c67ab787c3b899256f4a2950170ff8bfdbd97df0b4fbe6ddb86ba34"
+    },
+    "graphics/libtitangfx/path2/ts_gfx_path2.so": {
+      "bytes": 47256,
+      "sha256": "843bec368531ba8ac1f915916e8a9b1cb8a8fad6c7cca065001d88dc051dd781"
+    },
+    "graphics/libtitangfx/src/blake3_vendored/LICENSE": {
+      "bytes": 363,
+      "sha256": "459df26b3519fd40aaa38fbf27d1430b29fcce70c943e54f50b6d4f11c9f6da8"
+    },
+    "graphics/libtitangfx/src/blake3_vendored/LICENSE_Apache-2.0": {
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "graphics/libtitangfx/src/blake3_vendored/LICENSE_CC0-1.0": {
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    "graphics/libtitangfx/src/blake3_vendored/blake3.c": {
+      "bytes": 28945,
+      "sha256": "b118ddf7cf9e6e5ef3fded72dcb1acf9dfdc4ea923cbe4605900ad6ee9afe1af"
+    },
+    "graphics/libtitangfx/src/blake3_vendored/blake3.h": {
+      "bytes": 2923,
+      "sha256": "df32c1e80577eabaab8ca9ba3b8be273bc2201a8cff6276c62cd8deba15f9348"
+    },
+    "graphics/libtitangfx/src/blake3_vendored/blake3_dispatch.c": {
+      "bytes": 9189,
+      "sha256": "134f21550138c0af6312925c988aeee35df287e4119e8ad1d206fccdb2238fe3"
+    },
+    "graphics/libtitangfx/src/blake3_vendored/blake3_impl.h": {
+      "bytes": 12054,
+      "sha256": "d388dca3574602c8849805ea3c8c0a12d082ac0e428756f305e111942f099af4"
+    },
+    "graphics/libtitangfx/src/blake3_vendored/blake3_portable.c": {
+      "bytes": 5889,
+      "sha256": "2bc25b0dad67b4329d0b49cfa075ab2b0d04e424addbddc4e9c389c52a192524"
+    },
+    "graphics/libtitangfx/src/libtitangfx_all.c": {
+      "bytes": 8478,
+      "sha256": "a2c10c432bb071e53c1ef2c5125d98b9bed8beb1208d1202430d7a576bd77e8d"
+    },
+    "graphics/libtitangfx/src/ts_algorithms.h": {
+      "bytes": 26772,
+      "sha256": "c2039ad14a409125f19593534b1da17a0673178e517ff7a1c18d1f495610293c"
+    },
+    "graphics/libtitangfx/src/ts_blake3.h": {
+      "bytes": 2999,
+      "sha256": "1add7439cf9180db01a6e8ae0d1c3b6ae37d65c2789ada4a5f36117e6687b70c"
+    },
+    "graphics/libtitangfx/src/ts_crc32c.h": {
+      "bytes": 1858,
+      "sha256": "34dc1c0d91423ca0b5d1a832c7b99a107a6de32f24f3dcc2e18ab7c654519d39"
+    },
+    "graphics/libtitangfx/src/ts_crypto_sha256.c": {
+      "bytes": 5808,
+      "sha256": "9327ca34fd150bfeff398aa094a6509baae3ef93caff5a90b1aaf85f33eaf2f8"
+    },
+    "graphics/libtitangfx/src/ts_engine_abi.h": {
+      "bytes": 2613,
+      "sha256": "52f7693206c19ff45c5d0b2a4fb2b7ce508357516ef3eec74df2394466a5815f"
+    },
+    "graphics/libtitangfx/src/ts_framebuffer.h": {
+      "bytes": 13802,
+      "sha256": "2656405074c855060fba9a8055858791697af7cb7dc9300925572fbe6424e22a"
+    },
+    "graphics/libtitangfx/src/ts_geo_extra2.c": {
+      "bytes": 11598,
+      "sha256": "3003708bc1643c2893009478c67a43792b6b691a09b2e90957d50cb1d7ab6b83"
+    },
+    "graphics/libtitangfx/src/ts_geo_extra2.h": {
+      "bytes": 4640,
+      "sha256": "944a1a23ec13e478724c8e71b97dfa67236d22057fc5580cf146fe64ac27010e"
+    },
+    "graphics/libtitangfx/src/ts_geom.c": {
+      "bytes": 8900,
+      "sha256": "123311ebdc02f570288d4935a88b85abc2f6244a03547ef5f2af2255eeceaa0a"
+    },
+    "graphics/libtitangfx/src/ts_geom.h": {
+      "bytes": 3206,
+      "sha256": "52d2a37a5d1666ae810b1c202a4a8ecf5421be319778ee2473cec9930db15732"
+    },
+    "graphics/libtitangfx/src/ts_gfx_3d.h": {
+      "bytes": 10390,
+      "sha256": "baa70031576ebd6ec49e5385126c5faa6926412899f6ba57a16cdd52a4bca25c"
+    },
+    "graphics/libtitangfx/src/ts_gfx_canvas.h": {
+      "bytes": 7852,
+      "sha256": "5105121da5f17afa9dd2aa62378264602f011b80337d76fbb0b1ed15e57e585c"
+    },
+    "graphics/libtitangfx/src/ts_gfx_draw.h": {
+      "bytes": 15406,
+      "sha256": "a6035e14cd84a0ab73bc0bda68f01c020a74797b9f664f00df7905679976ab8e"
+    },
+    "graphics/libtitangfx/src/ts_gfx_export.h": {
+      "bytes": 4813,
+      "sha256": "456909a56f24430cd19c1c91be780962de05ac8bb5489d7b490480c8aa270232"
+    },
+    "graphics/libtitangfx/src/ts_gfx_extra.h": {
+      "bytes": 17649,
+      "sha256": "3656fc6ece34856b36043fa8788feae4eb50d4db6e3c5d2758e58c6195c64884"
+    },
+    "graphics/libtitangfx/src/ts_gfx_extra2.c": {
+      "bytes": 1878,
+      "sha256": "5b3ce2c7b3d2f15f5e8640477d2a6b3a12a4e7a0718f76728f844f28d3b4126e"
+    },
+    "graphics/libtitangfx/src/ts_gfx_extra2.h": {
+      "bytes": 2188,
+      "sha256": "98c6727b8341a456e29fb0b707c6aa0a8753de0232966cbd3974ed062d188daa"
+    },
+    "graphics/libtitangfx/src/ts_gfx_hash_shim.h": {
+      "bytes": 2494,
+      "sha256": "0ec6571c6f98e93cef3678b27fc6b9a1fbc9322bffa0befc7656c343bf1b93db"
+    },
+    "graphics/libtitangfx/src/ts_gfx_imgproc.h": {
+      "bytes": 30284,
+      "sha256": "029b763af8b271114307d1bb1187742f141128c3662f85d7f0e3975c422ff105"
+    },
+    "graphics/libtitangfx/src/ts_gfx_perf.h": {
+      "bytes": 22078,
+      "sha256": "b8c66b09776180c0189af1ec256ef4747c12d767ce9e04e1cdc1f8cf94a72d6b"
+    },
+    "graphics/libtitangfx/src/ts_gfx_pro.h": {
+      "bytes": 35582,
+      "sha256": "a715a21ae6c38f848523aac0e62faf0051bb6ea4ac48e5f7e9a27c5cf6ad2b7d"
+    },
+    "graphics/libtitangfx/src/ts_gfx_raster3d.h": {
+      "bytes": 16962,
+      "sha256": "555a6d208348f10ab5db71f8fa8ece18713de18962be85a0e4aa57fc3f4ed2aa"
+    },
+    "graphics/libtitangfx/src/ts_gfx_smart.h": {
+      "bytes": 50878,
+      "sha256": "7b3035cd17d6139c4b595aa65f913562ceea445ca099f12e1457e701d7fa43bd"
+    },
+    "graphics/libtitangfx/src/ts_gfx_text.h": {
+      "bytes": 14838,
+      "sha256": "0911e6b013124f98d0e09c825711b0f14f5be09670e2dc91b091219493d561bd"
+    },
+    "graphics/libtitangfx/src/ts_gfx_transform.h": {
+      "bytes": 6190,
+      "sha256": "f41d6dd5f3b653cf393606a89497c6c6fd068cc22d5311d48cf338ca67b160ef"
+    },
+    "graphics/libtitangfx/src/ts_outbuf.h": {
+      "bytes": 3071,
+      "sha256": "d5f6c4894706bcdc7c7c017c03994d2b4e16dcb355de4b1208371d5e1ce4a28f"
+    },
+    "graphics/libtitangfx/src/ts_plot_raster.h": {
+      "bytes": 27562,
+      "sha256": "257d2d260a276ce1000484cfb409c2460fb7636c5332da6c2a4ab62616bc2c15"
+    },
+    "graphics/libtitangfx/src/ts_polygon_simplify.h": {
+      "bytes": 11851,
+      "sha256": "f4bc27c27c9ebdedffe833dd645e6df63cd476430d331f6d00e080aececdc2e1"
+    },
+    "graphics/libtitangfx/src/ts_render_engine.h": {
+      "bytes": 62639,
+      "sha256": "d756e762b4664fdd352c8a3ad71868e05091422a6815a3450f0d57d08816313e"
+    },
+    "graphics/libtitangfx/src/ts_render_manager.h": {
+      "bytes": 18077,
+      "sha256": "07f70ca8d2f2acb1a55096997a48a365c501d81fba76d9e12250aadda9173aed"
+    },
+    "graphics/libtitangfx/src/ts_rs.c": {
+      "bytes": 15979,
+      "sha256": "9b79478098823d1d3299f2c42512a92a0cb84e0f6be4612347b03415aee97648"
+    },
+    "graphics/libtitangfx/src/ts_rs.h": {
+      "bytes": 3480,
+      "sha256": "047c5181f23e24150bf17713e03188287001ec1fa5db85898555366faabf3ce9"
+    },
+    "graphics/libtitangfx/src/ts_smart_buffer.h": {
+      "bytes": 14275,
+      "sha256": "a0cc80fdf6325f76789341b861f25bb460be3a085bdc3d55b1fa4fd706bd63bf"
+    },
+    "graphics/libtitangfx/src/ts_spatial_index.h": {
+      "bytes": 6956,
+      "sha256": "6c3f2e5207c5afcc8c954c27a9f5344b222a65ea49206a142a41aa69d28351e5"
+    },
+    "graphics/libtitangfx/src/ts_spatial_ops.h": {
+      "bytes": 20697,
+      "sha256": "2192f39f7a319bf4b210f6f78d8b613dfa06772d76ea0f148c2c7147a9269b9a"
+    },
+    "graphics/libtitangfx/src/ts_text_placement.h": {
+      "bytes": 43914,
+      "sha256": "8fcf9880c22b4f4b93660832d877eb76b4bbf7f135ab73c1e5238fb38163e287"
+    },
+    "graphics/libtitangfx/src/ts_tile_cache.h": {
+      "bytes": 15591,
+      "sha256": "4f659a41f1f8a712559c280275e9a3e5bc912e10db4251751387ef84ba946fea"
+    },
+    "graphics/libtitangfx/src/ts_titan_hash.h": {
+      "bytes": 13483,
+      "sha256": "23032809a29d80e91dc04604723f34aed43bc1f4ceabe1476f27a02da9c4a9d7"
+    },
+    "graphics/libtitangfx/src/ts_titan_ui.h": {
+      "bytes": 24392,
+      "sha256": "941295cb1a8de48141f12458e5f5708ef66d2f1ac9a7bfe33bf805a273ef58b5"
+    },
+    "graphics/libtitangfx/src/ts_utils.h": {
+      "bytes": 22525,
+      "sha256": "cd89e8ed81fd121586799fc2876f909358ebea498b871b106fc1fd388539c1e5"
+    },
+    "tests/test_graphics_integrity.py": {
+      "bytes": 1885,
+      "sha256": "1238ef720ebb5a9cdaa001e8baa717f1964bc929a4542aeda92fdf92af1960d5"
+    },
+    "tests/test_tools.py": {
+      "bytes": 3745,
+      "sha256": "d96d6cab12d2cf328685fe7d9bd7b7874ffbebeb0692c72bf83784bb30e022bc"
+    },
+    "tools/audit_release.py": {
+      "bytes": 3662,
+      "sha256": "0b313c6476147d50e8e807943bfe3f63ff40e14b54ab3d7fa8bdbba921e5c54d"
+    },
+    "tools/tvw_source_probe.py": {
+      "bytes": 1364,
+      "sha256": "41b11c3e3eb47c7a4b1782515ae8ea1e0f50c0c72dbeb11f409012626c096227"
+    }
+  }
+}

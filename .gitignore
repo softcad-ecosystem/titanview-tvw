@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+_local_authority/
+_private_staging/
+_review/
+*.zip
+*.tar.gz
+*.whl
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+*.key
+.env
+.env.*
+
+# Explicitly permitted LGPL binary artifacts from owner-provided graphics bundle.
+!graphics/libtitangfx/libtitangfx.dll
+!graphics/libtitangfx/libtitangfx.so
+!graphics/libtitangfx/path2/ts_gfx_path2.dll
+!graphics/libtitangfx/path2/ts_gfx_path2.so

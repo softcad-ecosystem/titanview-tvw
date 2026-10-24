@@ -1,0 +1,8 @@
+BLAKE3 reference implementation (vendat în acest pachet).
+Copyright (c) Jack O'Connor, Samuel Neves, Jean-Philippe Aumasson, Zooko Wilcox-O'Hearn.
+
+Licențiat dublu, la alegerea destinatarului:
+  - CC0-1.0 (domeniu public) — vezi LICENSE_CC0-1.0
+  - Apache-2.0                — vezi LICENSE_Apache-2.0
+
+Sursa oficială: https://github.com/BLAKE3-team/BLAKE3
